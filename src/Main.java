@@ -90,7 +90,7 @@ public class Main {
         System.out.println("Turn " + turn + ":");
         String userCode = scanner.nextLine();
         int cows;
-        int bulls;
+        int bulls = 0;
         if (!code.equals(userCode)) {
             while (!code.equals(userCode)) {
                 cows = 0;
