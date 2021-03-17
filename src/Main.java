@@ -48,8 +48,6 @@ public class Main {
         String code = randomGenerator(length, symbols);
         System.out.println("Okay, let's start a game!");
         grade(code);
-        System.out.println("The random secret number is " + code);
-
     }
 
     public static String randomGenerator(int length, int symbols) {
